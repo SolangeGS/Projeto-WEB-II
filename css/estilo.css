@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(153, 161, 156);
+    padding: 0;
+    margin: 0;
+}
+.blocos{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+    /* background-color: rgb(182, 127, 255); */
+}
+/* Cor das fontes */
+h1, h3{  
+    color: rgb(65, 95, 19);          
+}
+/* posicionamento do Titulo */
+h1{  
+    text-align: center;
+}
+/* borda das imagens */
+.imagens{
+    background-color: rgba(0, 0, 0, 0.348);
+    margin: 50px;
+    border-radius: 15px;
+}
+/* espaço entre as imagens */
+.imgs{
+    padding: 15px;
+}
+/* sub-titulos */
+.navbar{
+    background-color: hsl(123, 20%, 82%); 
+} 
